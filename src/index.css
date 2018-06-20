@@ -1,0 +1,39 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #e3e3e3;
+}
+
+.container {
+	padding: 1em;
+}
+
+.container > button {
+	margin: 5px 0;
+}
+
+.note-container {
+	margin: 4px 0;
+	padding: 10px 0;
+	font-size: 20px;
+	background: white;
+}
+
+.note-container div button {
+	margin: 5px 15px;
+	width: 7em;
+}
+
+.bold {
+	font-weight: 800;
+}
+
+.italic {
+	font-style: italic;
+}
+
+@media all and (max-width: 768px) {
+	.note-container div button {
+		padding: 0px;
+	}
+}
